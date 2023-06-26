@@ -1,0 +1,202 @@
+body{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 50%;
+    background-color: white;
+    margin-top: -1.5%;
+}
+
+#heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1%;
+    font-weight: bolder;
+}
+
+label{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+}
+
+hr{
+    margin: 0%;
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+
+#desc{
+    margin: 2%;
+}
+#desc label{
+    margin-bottom:0%;
+    font-weight: bold;
+}
+
+#desc input{
+    display: block;
+    width: 99.3%;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 1%;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder {
+   opacity:0.5; 
+}
+
+#cat-date{
+   
+    height: fit-content;
+}
+#cat-date input{
+    display: block;
+}
+#cat-date select{
+    display: inline-block;
+    border: none;
+    font-size: larger;
+    margin-top: 1%;
+    font-weight: bolder;
+    color: gray;
+    appearance: none; /* Hide the default dropdown arrow */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-right: 0%;
+}
+
+#cat i{
+    display: inline-block;
+    margin-left: 30%;
+    color: gray;
+    font-size: 25px;
+   
+}
+#cat{
+    display: inline-block;
+    width: 50%;
+    /* margin: 2%; */
+    border-right: 1px solid lightgray;
+    /* margin-bottom: 2%;
+    margin-left: 2%; */
+    padding: 2%;
+}
+
+select:focus{
+    outline: none;
+}
+
+#date{
+    display: inline-block;
+    /* margin: 2%; */
+    /* margin-bottom: 2%;
+    margin-left: 2%; */
+    padding: 2%;
+}
+
+#date input{
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: gray;
+}
+
+#submit-btn{
+    margin: 2%;
+    text-align: center;
+}
+
+#submit-btn button{
+    border: none;
+    width: max-content;
+    padding: 2%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    background-color: darkslategrey;
+}
+
+#list{
+    list-style: none;
+    padding: 0%;
+    margin: 2%;
+}
+#list li{
+    display: flex;
+    justify-content:space-between;
+    /* gap:25%; */
+    margin: 1%;
+}
+
+#checkbox{
+    transform: scale(1.5);
+}
+
+#desc-date{
+    margin-left: -25%;
+}
+
+#delete-btn{
+    margin-top: 4%;
+    
+}
+
+#delete-btn a i{
+    color: darkslategray;
+}
+
+.desc{
+    color: gray;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#date-N-icon{
+    color: grey;
+    font-size: small;
+    margin-top: -10px;
+}
+
+#date-N-icon p{
+    display: inline;
+}
+
+.category{
+    padding: 2%;
+    /* background-color: red; */
+    color: white;
+    text-transform: uppercase;
+}
+
+#personnel{
+    background-color: greenyellow;
+}
+
+#work{
+    background-color: green;
+}
+
+#school{
+    background-color: blueviolet;
+}
+
+#cleaning{
+    background-color: lightblue;
+}
+
+#others{
+    background-color: darkslateblue;
+}
