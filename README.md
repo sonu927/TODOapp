@@ -1,6 +1,7 @@
 # TODOapp
 
-This is a Web Application made with help of javaScript.  
+This is a Web Application made with help of javaScript , EJS , and NodeJS for backend.  
+Used mongoDB for database.  
 
 In this i have connected the application to database with the help of MongoDB,mongoose.  
 Fuctions:-  
